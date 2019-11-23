@@ -10,6 +10,9 @@ sudo: false
 install:
   - npm install
 script:
+<<<<<<< HEAD
+  - npm test
+=======
   - npm test
 deploy:
   - provider: script
@@ -17,3 +20,4 @@ deploy:
     script: chmod +x ./deploy.sh && ./deploy.sh
     on:
       branch: master
+>>>>>>> ef11e21cd4a93857f7f065a86354c54261b47c32
