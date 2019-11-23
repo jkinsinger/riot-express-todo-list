@@ -88,6 +88,7 @@ function sshConnect() {
       // host: '34.201.150.126', (first IP address)
       host: '54.167.49.135', // (new IP addres since I restarted the instance)
       username: 'ubuntu',
+      ROOT_URL: 'http://ec2-54-167-49-135.compute-1.amazonaws.com',
       privateKey: 'todolist-key.pem'
     })
     .then(function() {
